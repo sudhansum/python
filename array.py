@@ -21,9 +21,11 @@ for e in vals:
 
 sub = array('u',["a","e","i","o","u"])
 print(sub)
+print(len(sub))
 newArray = array(vals.typecode,(a for a in vals))
 print(newArray)
 
 newArray = array(vals.typecode,(a*a for a in vals))
 print(newArray)
 
+# this code is limited to 1d array
