@@ -1,0 +1,21 @@
+1>to check the python installed or not
+python --version 
+2> install package manager
+   python.e
+
+3>> Check if django is installed or not 
+ python -m django --version
+
+4>> Install Djang
+ pip install django
+
+
+
+
+1. To create a project 
+django-admin startproject Hello_world
+
+2. To create an app ie a webpage
+python manage.py startapp app1
+
+3.
